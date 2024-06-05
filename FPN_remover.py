@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 window_name = 'Augmented Video Footage View'
-file_name = 'D:/University/4th yr/DSC4013/Week 4/resources/video/COF.avi'
+file_name = 'Path to COF video footage vith FPN (COF.avi)'
 cv.namedWindow(window_name, cv.WINDOW_NORMAL)
 
 source = cv.VideoCapture(file_name)   
